@@ -24,7 +24,7 @@ public class MoveSelect {
         Scanner scan = new Scanner(System.in);
         int selection;
 
-        selection = scan.nextInt
+        selection = scan.nextInt();
             
         
         
