@@ -13,12 +13,21 @@ import java.util.Scanner;
  */
 public class MoveSelect {
 
+    /**
+     * Vine selezionato un numero intero da 1 a 4
+     *
+     * @return
+     */
     public static int select() {
         //TODO Il range di scelta deve essere tra 1 e 4, solo interi.
 
         Scanner scan = new Scanner(System.in);
         int selection;
-        selection = scan.nextInt();
+
+        selection = scan.nextInt
+            
+        
+        
 
         return selection;
     }
