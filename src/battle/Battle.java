@@ -111,14 +111,9 @@ public class Battle {
      */
     public BaseMonster checkSpeed() {
 
-        //TODO Non mi piace questa cosa, vorrei modificarla...
-        if (this.attacker.getStats().getStat("vel") == this.defender.getStats().getStat("vel") && RNG.Roll10() <= 5) {
-            return this.attacker;
-        } else if (this.attacker.getStats().getStat("vel") == this.defender.getStats().getStat("vel") && RNG.Roll10() > 5) {
-            return this.defender;
-        }
+        
 
-        if (this.attacker.getStats().getStat("vel") > this.defender.getStats().getStat("vel")) {
+        if (this.attacker.getStats().getStat("vel") >= this.defender.getStats().getStat("vel")) {
             return this.attacker;
         } else {
             return this.defender;

@@ -32,11 +32,13 @@ public class GameEngine3 {
         //Creo delle mosse, sfrutto il polimorfismo
         BaseMove fuocoBase = new DamageMove("Fire", "Una mossa di fuoco base", 5, Element.FIRE);
         BaseMove acquaBase = new DamageMove("Acqua", "Una mossa di acqua base", 5, Element.WATER);
+        BaseMove erbaBase = new DamageMove("Erba", "Una mossa di erba base", 20, Element.GRASS);
         BaseMove atkUp = new SpecialMove("Danzaspada", "Aumenta l'attacco", "atk", 20, true);
+        
         
         //Creo i Moveset conun metodo di assegnazione veloce
         squirtle.fastMoveset(acquaBase, acquaBase, acquaBase, acquaBase);
-        charmander.fastMoveset(fuocoBase, atkUp, fuocoBase, fuocoBase);
+        charmander.fastMoveset(erbaBase, atkUp, fuocoBase, fuocoBase);
         
         //Creo la battaglia
         Battle stage = new Battle(charmander, squirtle);
