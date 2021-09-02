@@ -5,6 +5,7 @@
  */
 package monster;
 
+
 import move.BaseMove;
 import utils.Element;
 import utils.Status;
@@ -18,12 +19,18 @@ public abstract class BaseMonster {
     private StatBlock stats;
     private BaseMove[] moves = new BaseMove[4];
     private Status status;
+    
+
+    
     protected Element element;
+    
+    
     
     public BaseMonster(String name, int hp, int vel, int atk, int def){
         this.name = name;
         this.stats = new StatBlock(hp, vel, atk, def);
         status = Status.OK;
+        
     }
     
     public abstract Element getWeakness();
@@ -60,6 +67,7 @@ public abstract class BaseMonster {
     public void setStatus(Status status) {
         this.status = status;
     }
+
     
     public Element getElement() {
         return element;
@@ -68,6 +76,9 @@ public abstract class BaseMonster {
     public void setElement(Element element){
         this.element = element;
     }
+
+    
+    
     
     public void fastMoveset(BaseMove a, BaseMove b, BaseMove c, BaseMove d){
         this.moves[0] = a;
@@ -95,4 +106,5 @@ public abstract class BaseMonster {
         this.status = this.getStats().getStat("hp") <= 0 ? Status.DEAD : this.status;
     }
     
+
 }

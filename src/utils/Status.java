@@ -11,6 +11,5 @@ package utils;
  */
 public enum Status {
     OK,
-    DEAD,
-    POISON
+    DEAD
 }

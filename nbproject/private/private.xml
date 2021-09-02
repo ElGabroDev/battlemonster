@@ -5,15 +5,13 @@
         <group>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/gameengine3/GameEngine3.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/monster/StatBlock.java</file>
-            <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/move/StatusMove.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/battle/Battle.java</file>
-            <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/mechanics/Turn.java</file>
+            <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/utils/Status.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/monster/WaterMonster.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/monster/BaseMonster.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/mechanics/MoveSelect.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/move/SpecialMove.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/move/DamageMove.java</file>
-            <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/utils/StatusEffect.java</file>
             <file>file:/home/elgabro/NetBeansProjects/GameEngine3/src/move/BaseMove.java</file>
         </group>
     </open-files>

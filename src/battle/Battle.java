@@ -100,7 +100,9 @@ public class Battle {
             changeAttackerDefender();
             makeMove(selection2, selection1);
         }
-
+        
+        
+        
     }
 
     /**

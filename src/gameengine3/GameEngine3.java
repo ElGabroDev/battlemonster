@@ -36,6 +36,7 @@ public class GameEngine3 {
         BaseMove atkUp = new SpecialMove("Danzaspada", "Aumenta l'attacco", "atk", 20, true);
         
         
+        
         //Creo i Moveset conun metodo di assegnazione veloce
         squirtle.fastMoveset(acquaBase, acquaBase, acquaBase, acquaBase);
         charmander.fastMoveset(erbaBase, atkUp, fuocoBase, fuocoBase);
